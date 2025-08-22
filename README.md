@@ -68,7 +68,7 @@ Understanding design properties such as colors, typography, and layout choices e
 
 ---
 
-## Team/Project Roles and Responsibilities
+## Team Roles and Responsibilities
 
 ### Project Manager
 - Oversees the project timeline and deliverables.  
