@@ -92,3 +92,34 @@ Understanding design properties such as colors, typography, and layout choices e
 - Monitor application performance and uptime.  
 
 ### Product Owner
+- Defines project requirements and priorities.  
+- Represents the stakeholders and end-users.  
+- Validates features and ensures the product aligns with the vision.  
+
+### Scrum Master
+- Facilitates agile processes (standups, sprint planning, retrospectives).  
+- Removes blockers and ensures smooth team collaboration.  
+- Helps the team follow agile best practices.  
+
+---
+
+## UI Component Patterns
+
+To maintain a consistent and reusable interface, the project will define common UI components. These will be built as modular pieces so they can be reused across multiple pages.
+
+### Planned Components
+
+**Navbar**
+- Displays the site logo.  
+- Includes a search bar for quick property lookups.  
+- Provides navigation links (Home, Trips, Favorites, Profile).  
+- Features a responsive mobile menu.  
+
+**Property Card**
+- Displays a property image.  
+- Shows key details: price per night, location, rating.  
+- Includes a "favorite" button for saving properties.  
+- Designed to adapt to grid layouts on desktop and mobile.  
+
+**Footer**
+- Displays links to site pages and policies.  
