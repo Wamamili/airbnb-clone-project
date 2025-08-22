@@ -237,3 +237,18 @@ All user inputs will be validated and sanitized to guard against SQL injection, 
 -Securing payments ensures financial safety and prevents fraud.
 -Enforcing authorization safeguards sensitive resources like bookings and property data.
 -Rate limiting and validation protect the system’s performance and integrity.
+
+
+### CI/CD Pipeline
+
+##Overview
+A CI/CD (Continuous Integration and Continuous Deployment) pipeline automates the process of building, testing, and deploying code. It ensures that new changes are integrated smoothly, tested thoroughly, and delivered to production without manual intervention.
+
+**Importance for the Project**
+Implementing a CI/CD pipeline reduces human error, speeds up development, and maintains code quality. It allows the team to deliver new features and fixes faster while ensuring the system remains stable and reliable.
+
+**Tools**
+
+-GitHub Actions: Automates testing, linting, and deployments directly from the repository.
+-Docker: Standardizes application environments across development, testing, and production.
+-CI/CD Hosting Options: Could include platforms like AWS, Heroku, or Render for deployment.
