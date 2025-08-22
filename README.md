@@ -194,3 +194,22 @@ To maintain a consistent and reusable interface, the project will define common 
 -A Property can have multiple Reviews, each created by a User.
 -A Payment is linked to one Booking.
 
+### Feature Breakdown
+
+**1. User Management**
+This feature allows users to register, log in, and manage their profiles. It also handles user roles, distinguishing between guests and hosts, ensuring personalized experiences.
+
+**2. Property Management**
+Hosts can list properties, add details such as descriptions, pricing, and location, and manage availability. This feature ensures properties are searchable and accessible to potential guests.
+
+**3. Booking System**
+Guests can check property availability, create bookings, and track booking status. This feature manages reservations, preventing double bookings and maintaining accurate property schedules.
+
+**4. Review System**
+Guests can leave reviews and ratings for properties they have stayed in. This helps build trust, improves transparency, and provides feedback for hosts.
+
+**5. Payment Processing**
+This feature manages payments for bookings, handling amounts, payment statuses, and transaction history. It ensures secure processing and tracks payment confirmations.
+
+**6. Search and Filter**
+Guests can search properties based on location, price, availability, and other filters. This feature enhances usability and improves the guest’s ability to find suitable options quickly.
