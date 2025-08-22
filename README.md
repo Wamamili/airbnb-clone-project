@@ -25,6 +25,15 @@ The Airbnb Clone Project is a full-stack web application that simulates the core
 - **Design:** Figma for UI/UX
 - **Deployment:** Docker, CI/CD (GitHub Actions)
 
+## Technology Stack
+
+- **Frontend:** React.js (with Tailwind CSS for styling)
+- **Backend:** Node.js with Express or Django REST Framework
+- **Database:** PostgreSQL,MySQL
+- **Version Control:** Git and GitHub
+-**API:** REST and GraphQL
+- **Design:** Figma for UI/UX
+- **Deployment:** Docker, CI/CD (GitHub Actions)
 
 ---
 
