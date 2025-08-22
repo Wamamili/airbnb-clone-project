@@ -41,5 +41,18 @@ This is a full-stack clone of the AirBnB platform. The goal is to build a functi
 | **Listing Detailed View** | Full property details including photos, amenities, reviews, and booking form.   |
 | **Simple Checkout View**  | Streamlined checkout page with price summary, payment form, and confirmation.  |
 
-### Importance of User-Friendly Design
-A user-friendly booking system reduces friction in the reservation process, leading to higher conversion rates and increased satisfaction. Clear navigation, intuitive interfaces, and responsive design ensure that users can complete bookings quickly and confidently on any device.
+### Color Styles (from Figma)
+- **Primary:** `#FF5A5F`  
+- **Secondary:** `#008489`  
+- **Background:** `#FFFFFF`  
+- **Text:** `#222222`  
+- **Secondary Text:** `#717171`  
+
+### Typography (from Figma)
+- **Primary Font:** Circular  
+- **Headings:** Bold (700), 24px–32px  
+- **Body Text:** Medium (500), 16px  
+- **Secondary Text:** Book (400), 14px  
+
+### Importance of Identifying Design Properties
+Understanding design properties such as colors, typography, and layout choices ensures consistency across the entire application. By clearly defining these elements from the start, the development team can maintain a unified look and feel. It also reduces ambiguity, speeds up collaboration between designers and developers, and helps create a professional, user-friendly product that aligns with user expectations.
