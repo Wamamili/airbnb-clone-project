@@ -213,3 +213,27 @@ This feature manages payments for bookings, handling amounts, payment statuses, 
 
 **6. Search and Filter**
 Guests can search properties based on location, price, availability, and other filters. This feature enhances usability and improves the guest’s ability to find suitable options quickly.
+
+### API Security
+
+**Authentication**
+All API endpoints will require user authentication through secure methods such as JSON Web Tokens (JWT). This ensures only verified users can access protected resources and helps prevent unauthorized access.
+
+****Authorization**
+Role-based access control will be implemented to distinguish between guests, hosts, and administrators. This protects sensitive actions, such as property management and financial transactions, from being accessed by unauthorized users.
+
+**Rate Limiting**
+Rate limiting will be applied to prevent abuse of the API through excessive requests, such as brute-force login attempts or denial-of-service attacks. This maintains system stability and fair resource usage.
+
+**Data Encryption**
+Sensitive data such as passwords and payment details will be encrypted both in transit (using HTTPS/TLS) and at rest. This prevents exposure of user credentials and financial information in case of data breaches.
+
+**Input Validation and Sanitization**
+All user inputs will be validated and sanitized to guard against SQL injection, cross-site scripting (XSS), and other common web attacks. This protects the database and ensures data integrity.
+
+### Importance of Security
+
+-Protecting user data builds trust and prevents identity theft.
+-Securing payments ensures financial safety and prevents fraud.
+-Enforcing authorization safeguards sensitive resources like bookings and property data.
+-Rate limiting and validation protect the system’s performance and integrity.
