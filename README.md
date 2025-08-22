@@ -56,3 +56,39 @@ This is a full-stack clone of the AirBnB platform. The goal is to build a functi
 
 ### Importance of Identifying Design Properties
 Understanding design properties such as colors, typography, and layout choices ensures consistency across the entire application. By clearly defining these elements from the start, the development team can maintain a unified look and feel. It also reduces ambiguity, speeds up collaboration between designers and developers, and helps create a professional, user-friendly product that aligns with user expectations.
+
+---
+
+## Project Roles and Responsibilities
+
+### Project Manager
+- Oversees the project timeline and deliverables.  
+- Coordinates tasks and ensures smooth collaboration between team members.  
+- Tracks progress and resolves scheduling conflicts.  
+
+### Frontend Developers
+- Implement the UI components based on Figma designs.  
+- Ensure responsive and accessible layouts.  
+- Connect frontend with backend APIs.  
+
+### Backend Developers
+- Design and implement RESTful APIs.  
+- Manage database schema, models, and queries.  
+- Implement authentication, booking, and payment logic.  
+
+### Designers
+- Create mockups, prototypes, and maintain the design system.  
+- Ensure visual consistency and adherence to branding.  
+- Provide developers with design assets and specifications.  
+
+### QA/Testers
+- Write test cases for functionality and user flows.  
+- Perform unit, integration, and end-to-end testing.  
+- Report and track bugs for resolution.  
+
+### DevOps Engineers
+- Set up and maintain CI/CD pipelines.  
+- Manage deployment, environments, and server infrastructure.  
+- Monitor application performance and uptime.  
+
+### Product Owner
