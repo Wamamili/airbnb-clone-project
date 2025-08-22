@@ -68,7 +68,7 @@ Understanding design properties such as colors, typography, and layout choices e
 
 ---
 
-## Project Roles and Responsibilities
+## Team/Project Roles and Responsibilities
 
 ### Project Manager
 - Oversees the project timeline and deliverables.  
@@ -99,6 +99,11 @@ Understanding design properties such as colors, typography, and layout choices e
 - Set up and maintain CI/CD pipelines.  
 - Manage deployment, environments, and server infrastructure.  
 - Monitor application performance and uptime.  
+
+### Database Administrator (DBA)
+
+-Designs, manages, and optimizes the database. 
+-Ensures data integrity, availability, and security.
 
 ### Product Owner
 - Defines project requirements and priorities.  
