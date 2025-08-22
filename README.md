@@ -1,21 +1,30 @@
 # AirBnB Clone Project
+The Airbnb Clone Project is a full-stack web application that simulates the core features of the Airbnb platform. It is designed to provide hands-on experience in building scalable, secure, and feature-rich booking systems while following industry best practices. The application allows users to browse property listings, view detailed information, and complete bookings, offering a functional and realistic clone of the Airbnb platform.
 
-This is a full-stack clone of the AirBnB platform. The goal is to build a functional web application where users can browse property listings, view details, and complete bookings.
-
-## Project Goals
+## Project Goals Front End
 - Learn to implement responsive UI/UX designs
 - Understand how to structure a complex web application
 - Gain experience in team collaboration and defined roles
 - Practice component-based frontend architecture
 - Apply best practices in web application development
+## Project Goals BackEnd
+-Build a robust backend system to handle bookings, users, properties, and reviews.
+-Design a relational database that models real-world requirements.
+-Develop secure APIs with authentication and authorization.
+-Create a responsive frontend interface that ensures a smooth user experience.
+-Implement CI/CD pipelines for streamlined deployment.
+-Foster collaborative team workflows through GitHub-based project management.
+
 
 ## Tech Stack
-- **Frontend:** React, HTML, CSS, JavaScript
+- **Frontend:** React.js (with Tailwind CSS for styling)
 - **Backend:** Node.js with Express or Django REST Framework
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL,MySQL
 - **Version Control:** Git and GitHub
+-**API:** REST and GraphQL
 - **Design:** Figma for UI/UX
 - **Deployment:** Docker, CI/CD (GitHub Actions)
+
 
 ---
 
@@ -123,3 +132,4 @@ To maintain a consistent and reusable interface, the project will define common 
 
 **Footer**
 - Displays links to site pages and policies.  
+
