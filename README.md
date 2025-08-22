@@ -147,3 +147,50 @@ To maintain a consistent and reusable interface, the project will define common 
 **Footer**
 - Displays links to site pages and policies.  
 
+### Database Design
+**Key Entities and Fields**
+
+**1. Users**
+-id (primary key)
+-name
+-email
+-password
+-role (guest or host)
+
+**2. Properties**
+-id (primary key)
+-user_id (foreign key to Users)
+-title
+-description
+-location
+-price_per_night
+
+**3. Bookings**
+-id (primary key)
+-user_id (foreign key to Users)
+-property_id (foreign key to Properties)
+-check_in_date
+-check_out_date
+-status (pending, confirmed, cancelled)
+
+**4. Reviews**
+-id (primary key)
+-user_id (foreign key to Users)
+-property_id (foreign key to Properties)
+-rating
+-comment
+
+**5. Payments**
+-id (primary key)
+-booking_id (foreign key to Bookings)
+-amount
+-payment_date
+-payment_status (completed, pending, failed)
+
+### Relationships
+-A User can own multiple Properties.
+-A User can make multiple Bookings.
+-A Booking belongs to one Property and one User.
+-A Property can have multiple Reviews, each created by a User.
+-A Payment is linked to one Booking.
+
